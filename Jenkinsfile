@@ -12,7 +12,6 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
-                sh 'echo "pooaaap"'
 		sh 'echo "hasdfgello again<img src=x onerror=alert(1)>"'
             }
         }
