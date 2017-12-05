@@ -12,7 +12,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install'
-		sh 'echo "haasdfsdfgello again<img src=x onerror=alert(1)>"'
+		sh 'echo "haasdfsdafgello again<img src=x onerror=alert(1)>"'
             }
         }
         stage('Test') {
