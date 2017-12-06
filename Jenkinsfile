@@ -12,7 +12,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
-		sh 'echo "asdasdf<img src=x onerror=alert(1)>"'
+		sh 'echo "asda<img src=x onerror=alert(1)>"'
             }
         }
         stage('Test') {
